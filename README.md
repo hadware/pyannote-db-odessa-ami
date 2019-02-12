@@ -6,7 +6,15 @@
 $ pip install pyannote.db.odessa.ami
 ```
 
-Tell `pyannote` where to look for AMI audio files.
+You should then download the dataset files. This repo provides a download script for the required files in the `AMI/db_download/` folder. Yyou can download that file independently from the repository, and run it:
+
+```bash
+bash download.sh /where/you/want/to/download/the/data/
+```
+
+You can also download them "by hand" on the [official website](http://groups.inf.ed.ac.uk/ami/download/) by checking all the AMI meetings and only the Headset mix stream.
+
+Then, tell `pyannote` where to look for AMI audio files.
 
 ```bash
 $ cat ~/.pyannote/db.yml
