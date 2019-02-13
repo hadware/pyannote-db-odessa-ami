@@ -6,7 +6,7 @@
 $ pip install pyannote.db.odessa.ami
 ```
 
-You should then download the dataset files. This repo provides a download script for the required files in the `AMI/db_download/` folder. Yyou can download that file independently from the repository, and run it:
+You should then download the dataset files. This repo provides a download script for the required files in the `AMI/db_download/` folder. You can download that file independently from the repository, and run it:
 
 ```bash
 bash download.sh /where/you/want/to/download/the/data/
