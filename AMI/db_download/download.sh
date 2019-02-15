@@ -201,6 +201,7 @@ if __name__ == "__main__":
     else:
         # test-opening the file with scipy
         rate, data = read(args.input)
+        print("%s has been properly reformated" % args.input)
 END
 }
 
