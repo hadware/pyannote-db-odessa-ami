@@ -232,6 +232,7 @@ fix_wav $DLFOLDER/IS1006d/audio/IS1006d.Mix-Headset.wav
 fix_wav $DLFOLDER/IS1003d/audio/IS1003d.Mix-Headset.wav
 fix_wav $DLFOLDER/IS1007b/audio/IS1007b.Mix-Headset.wav
 
+
 echo "#####################################"
 echo "Now add the following line to your ~/.pyannote/db.yml file"
 echo "AMI: $DLFOLDER/*/audio/{uri}.wav"
